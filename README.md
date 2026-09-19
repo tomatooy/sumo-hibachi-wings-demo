@@ -1,5 +1,7 @@
 # SUMO Hibachi & Wings redesign
 
+[Public demo](https://sumo-hibachi-wings-demo.ouou8386.chatgpt.site) · [GitHub repository](https://github.com/tomatooy/sumo-hibachi-wings-demo)
+
 A responsive, static restaurant website using the restaurant's existing logo and food photography. No package installation is required. Run `npm run build` to copy the deployable website into `dist/`.
 
 ## Preview

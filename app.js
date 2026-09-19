@@ -156,7 +156,9 @@ createRotation({
     storyImage.src = dish.image;
     storyImage.alt = dish.alt;
     story.querySelector('#story-item-name').textContent = dish.name;
-    story.querySelector('.story-order-name').textContent = dish.name;
-    story.querySelector('.story-order').setAttribute('aria-label', `Order ${dish.name.toLowerCase()}`);
+    const orderName = story.querySelector('.story-order-name');
+    const orderLink = story.querySelector('.story-order');
+    if (orderName) orderName.textContent = dish.name;
+    if (orderLink) orderLink.setAttribute('aria-label', `Order ${dish.name.toLowerCase()}`);
   }
 });
